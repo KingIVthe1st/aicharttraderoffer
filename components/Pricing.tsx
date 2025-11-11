@@ -85,7 +85,7 @@ export default function Pricing() {
                 className="text-4xl sm:text-5xl font-bold text-primary-400 mb-2"
                 whileHover={{ scale: 1.05 }}
               >
-                $1,000
+                $997
               </motion.div>
               <p className="text-gray-400">one time payment</p>
               <div className="mt-2">
@@ -111,8 +111,8 @@ export default function Pricing() {
               ))}
             </ul>
 
-            <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13Nc4c800'}>
-              Enroll Now - $1,000
+            <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/00w8wP30x3rz6wzbfE4c801'}>
+              Enroll Now - $997
             </Button>
 
             <p className="text-center text-sm text-gray-400 mt-4">
@@ -206,7 +206,7 @@ export default function Pricing() {
               <p className="text-sm sm:text-base text-gray-300">
                 If after two sessions you don&apos;t believe this program will transform your trading,
                 <br className="hidden lg:block" />
-                I&apos;ll refund your entire $1,000—no questions asked, no hard feelings.
+                I&apos;ll refund your entire $997—no questions asked, no hard feelings.
               </p>
             </div>
           </div>

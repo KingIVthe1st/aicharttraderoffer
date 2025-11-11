@@ -181,7 +181,7 @@ export default function Offer() {
         <div className="text-6xl font-bold mb-2 text-white">↓</div>
         <div>
           <p className="text-gray-400 text-lg mb-2">Your Investment:</p>
-          <p className="text-5xl font-bold text-primary-400 mb-2">$1,000</p>
+          <p className="text-5xl font-bold text-primary-400 mb-2">$997</p>
           <p className="text-xl text-gray-300">+ $20/month platform access</p>
         </div>
         <motion.div
