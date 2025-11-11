@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Section from './Section';
-import Image from 'next/image';
 
 export default function Mentor() {
   return (
@@ -17,13 +16,10 @@ export default function Mentor() {
           className="relative"
         >
           <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary-900/30 to-accent-900/30 border-2 border-primary-500/30 overflow-hidden relative group">
-            <Image
-              src="/ivan.jpg"
+            <img
+              src={`${process.env.NODE_ENV === 'production' ? '/aicharttraderoffer' : ''}/ivan.jpg`}
               alt="Ivanlee Jackson - AI Developer & Trading Educator"
-              fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              priority
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
