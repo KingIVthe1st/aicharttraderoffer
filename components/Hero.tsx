@@ -163,7 +163,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: prefersReducedMotion ? 0.3 : 0.8 }}
           >
-            Master futures trading with personalized mentorship from Ivanlee Jackson—software developer, AI architect, and active trader. 8 intensive 1 on 1 sessions + lifetime AI platform access + complete strategy development. Learn the systematic approach that professional traders use.
+            Master futures trading with personalized mentorship from Ivanlee Jackson, software developer, AI architect, and active trader. 8 intensive 1 on 1 sessions + lifetime AI platform access + complete strategy development. Learn the systematic approach that professional traders use.
           </motion.p>
 
           {/* CTAs with stagger */}

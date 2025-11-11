@@ -206,7 +206,7 @@ export default function Pricing() {
               <p className="text-sm sm:text-base text-gray-300">
                 If after two sessions you don&apos;t believe this program will transform your trading,
                 <br className="hidden lg:block" />
-                I&apos;ll refund your entire $997—no questions asked, no hard feelings.
+                I&apos;ll refund your entire $997, no questions asked, no hard feelings.
               </p>
             </div>
           </div>

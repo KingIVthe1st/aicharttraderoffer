@@ -16,7 +16,7 @@ const components = [
     title: 'AI Chart Traders Platform Access',
     value: 'Founding Member: $20/mo',
     icon: '🤖',
-    description: `Lifetime access to the platform for $20/month—a founding member rate locked in permanently. Professional grade market analysis platforms typically range from $200 to $1,000+ monthly. This includes all future platform updates, new pattern libraries, and feature releases. Use it to prepare for sessions, analyze trades between calls, and continue learning after our formal program ends. The AI becomes your permanent trading partner—always available, never judging, constantly helping you improve.`,
+    description: `Lifetime access to the platform for $20/month, a founding member rate locked in permanently. Professional grade market analysis platforms typically range from $200 to $1,000+ monthly. This includes all future platform updates, new pattern libraries, and feature releases. Use it to prepare for sessions, analyze trades between calls, and continue learning after our formal program ends. The AI becomes your permanent trading partner, always available, never judging, constantly helping you improve.`,
     features: ['Unlimited chart analysis', 'Mentor mode explanations', 'Pattern recognition alerts', 'Psychology training modules'],
   },
   {
@@ -30,7 +30,7 @@ const components = [
     title: 'Futures Trading Blueprint',
     value: '$1,500',
     icon: '📋',
-    description: `A documented strategy manual built specifically for YOUR trading style. This isn't a generic PDF—it's a collaborative document we develop together across our sessions. It includes your setup criteria, entry/exit rules, position sizing formulas, maximum daily loss parameters, and psychological triggers to watch for. Think of it as your trading constitution: rules you've agreed to follow when emotions run hot. Many traders tell me this document alone is worth the entire program investment—it's the difference between gambling and executing a tested system.`,
+    description: `A documented strategy manual built specifically for YOUR trading style. This isn't a generic PDF. It's a collaborative document we develop together across our sessions. It includes your setup criteria, entry/exit rules, position sizing formulas, maximum daily loss parameters, and psychological triggers to watch for. Think of it as your trading constitution: rules you've agreed to follow when emotions run hot. Many traders tell me this document alone is worth the entire program investment. It's the difference between gambling and executing a tested system.`,
     features: ['Custom strategy playbook', 'Risk management frameworks', 'Order flow analysis', 'Institutional behavior patterns'],
   },
 ];
@@ -51,7 +51,7 @@ export default function Offer() {
           What You Actually Get
         </h2>
         <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-          This isn't a course. It's a structured mentorship program with real-time feedback, premium tool access, and hands-on strategy development. You're not buying information—you're investing in a structured development program designed to build the skills, discipline, and strategic thinking that competent traders possess. Where you take those skills is up to you.
+          This isn't a course. It's a structured mentorship program with real-time feedback, premium tool access, and hands-on strategy development. You're not buying information. You're investing in a structured development program designed to build the skills, discipline, and strategic thinking that competent traders possess. Where you take those skills is up to you.
         </p>
       </motion.div>
 

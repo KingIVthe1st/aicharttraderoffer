@@ -28,10 +28,10 @@ export default function FinalCTA() {
             Your Next Step
           </h2>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
-            You're at a decision point that separates casual interest from real commitment. Most people will read this entire page, nod along, and do nothing—then wonder in six months why they're still stuck.
+            You're at a decision point that separates casual interest from real commitment. Most people will read this entire page, nod along, and do nothing. Then, in six months, they'll wonder why they're still stuck.
           </p>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            The traders who develop genuine skill aren't necessarily smarter or more talented—they're decisive, committed, and willing to invest in structured learning rather than expensive trial and error. They recognize quality education when they see it and act before spots fill. This program won't be available forever at this price—as the platform scales, pricing will reflect market value.
+            The traders who develop genuine skill aren't necessarily smarter or more talented. They're decisive, committed, and willing to invest in structured learning rather than expensive trial and error. They recognize quality education when they see it and act before spots fill. This program won't be available forever at this price. As the platform scales, pricing will reflect market value.
           </p>
 
           {/* Dual CTA */}

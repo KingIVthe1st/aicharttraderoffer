@@ -12,7 +12,7 @@ const benefits = [
   {
     title: 'Superior Leverage Structure',
     icon: '⚡',
-    description: `With futures, you can control $100,000 in notional value with a $5,000 margin requirement. This isn't gambling—it's efficient capital deployment. Unlike borrowing on margin (with interest and margin calls), futures leverage is built into the contract structure. Learn to manage this responsibly, and you'll trade like institutions do.`,
+    description: `With futures, you can control $100,000 in notional value with a $5,000 margin requirement. This isn't gambling. It's efficient capital deployment. Unlike borrowing on margin (with interest and margin calls), futures leverage is built into the contract structure. Learn to manage this responsibly, and you'll trade like institutions do.`,
   },
   {
     title: 'Prop Firm Compatibility',
@@ -32,7 +32,7 @@ const benefits = [
   {
     title: 'Risk-Defined Position Sizing',
     icon: '🧮',
-    description: `Futures contracts offer standardized margin requirements that let you calculate exact risk before any trade. Know precisely how much capital each ES or NQ contract requires—critical for prop firm evaluations where miscalculated positions can end your account. Learn the position sizing formulas that separate funded traders from failed evaluations.`,
+    description: `Futures contracts offer standardized margin requirements that let you calculate exact risk before any trade. Know precisely how much capital each ES or NQ contract requires. This is critical for prop firm evaluations where miscalculated positions can end your account. Learn the position sizing formulas that separate funded traders from failed evaluations.`,
   },
 ];
 
@@ -50,7 +50,7 @@ export default function FuturesFoundation() {
           Why Futures First
         </h2>
         <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-          Futures trading is where professionals start—and for good reason. Unlike options, futures contracts are straightforward: you're agreeing to buy or sell an asset at a specific price on a future date. No Greeks to decode. No theta decay eating your position overnight. Just pure directional conviction with defined leverage.
+          Futures trading is where professionals start, and for good reason. Unlike options, futures contracts are straightforward: you're agreeing to buy or sell an asset at a specific price on a future date. No Greeks to decode. No theta decay eating your position overnight. Just pure directional conviction with defined leverage.
         </p>
       </motion.div>
 

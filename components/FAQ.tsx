@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: "I'm a complete beginner—is this too advanced?",
+    question: "I'm a complete beginner. Is this too advanced?",
     answer: `No. I prefer working with beginners because you haven't developed bad habits yet. This program assumes zero trading knowledge. We start with absolute fundamentals: what futures contracts are, how margin works, why markets move. The AI platform adjusts to your experience level automatically. That said, you DO need prerequisite mindset: commitment to learning, comfort with technology, and realistic expectations (this is education, not get rich quick). If you bring the mindset, I'll provide the method.`,
   },
   {
@@ -31,11 +31,11 @@ const faqs = [
   },
   {
     question: 'Is the $20/month required?',
-    answer: `Yes, but it's worth understanding why. The AI platform requires ongoing server costs, data feeds, and continuous model training. $20/month barely covers infrastructure costs—I'm subsidizing this significantly for program students. If you complete the 8 sessions and decide the platform isn't valuable, you can cancel anytime. No long-term commitment. However, 98% of graduates maintain their subscription because having 24/7 AI mentorship is like having a senior trader on speed dial.`,
+    answer: `Yes, but it's worth understanding why. The AI platform requires ongoing server costs, data feeds, and continuous model training. $20/month barely covers infrastructure costs. I'm subsidizing this significantly for program students. If you complete the 8 sessions and decide the platform isn't valuable, you can cancel anytime. No long-term commitment. However, 98% of graduates maintain their subscription because having 24/7 AI mentorship is like having a senior trader on speed dial.`,
   },
   {
     question: "What if I can't attend all sessions?",
-    answer: `Life happens—I get it. Sessions are scheduled flexibly around your availability, and we can reschedule if emergencies arise. The program doesn't expire; it completes when you finish all 8 sessions, whether that takes 8 weeks or 12 weeks. That said, consistency matters for learning. If you can't commit to roughly one session every 7 to 10 days, you should wait until your schedule allows it. Sporadic engagement produces sporadic results.`,
+    answer: `Life happens. I get it. Sessions are scheduled flexibly around your availability, and we can reschedule if emergencies arise. The program doesn't expire; it completes when you finish all 8 sessions, whether that takes 8 weeks or 12 weeks. That said, consistency matters for learning. If you can't commit to roughly one session every 7 to 10 days, you should wait until your schedule allows it. Sporadic engagement produces sporadic results.`,
   },
 ];
 

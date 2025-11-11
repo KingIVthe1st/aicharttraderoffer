@@ -7,17 +7,17 @@ const problems = [
   {
     title: 'The Course Collector',
     icon: '📚',
-    description: `You've bought three trading courses. Maybe five. Each promised "the secret." Each delivered 47 pre-recorded videos, a Discord you never check, and strategies that don't work when real money's on the line. The problem isn't you—it's that generic courses teach generic strategies to generic audiences. You're not generic. Your risk tolerance, schedule, and psychology are unique. You need personalized guidance, not another video library.`,
+    description: `You've bought three trading courses. Maybe five. Each promised "the secret." Each delivered 47 pre-recorded videos, a Discord you never check, and strategies that don't work when real money's on the line. The problem isn't you. It's that generic courses teach generic strategies to generic audiences. You're not generic. Your risk tolerance, schedule, and psychology are unique. You need personalized guidance, not another video library.`,
   },
   {
     title: 'The Trial-and-Error Trap',
     icon: '💸',
-    description: `You're learning by losing. Every mistake costs real money. You don't know if your strategy is wrong, your execution is off, or you just hit bad luck. Without expert feedback on YOUR specific trades, you're driving blind. Most traders quit after blowing their third account—not because they can't learn, but because they're learning the most expensive way possible. What if someone could analyze your actual trades and show you exactly what's breaking down?`,
+    description: `You're learning by losing. Every mistake costs real money. You don't know if your strategy is wrong, your execution is off, or you just hit bad luck. Without expert feedback on YOUR specific trades, you're driving blind. Most traders quit after blowing their third account. Not because they can't learn, but because they're learning the most expensive way possible. What if someone could analyze your actual trades and show you exactly what's breaking down?`,
   },
   {
     title: "The Broker's Advantage",
     icon: '🏦',
-    description: `Every trade you place, someone's making money—and it's not you. Retail brokers profit from spreads, commissions, and your mistakes. Meanwhile, prop firms are literally paying traders to trade their capital. You're funding your education with your own dwindling account while professional traders use other people's money. The smartest move in trading isn't just learning strategy—it's learning how to access leverage without risking your savings.`,
+    description: `Every trade you place, someone's making money, and it's not you. Retail brokers profit from spreads, commissions, and your mistakes. Meanwhile, prop firms are literally paying traders to trade their capital. You're funding your education with your own dwindling account while professional traders use other people's money. The smartest move in trading isn't just learning strategy. It's learning how to access leverage without risking your savings.`,
   },
 ];
 
