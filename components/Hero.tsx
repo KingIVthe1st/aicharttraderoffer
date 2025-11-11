@@ -152,7 +152,7 @@ export default function Hero() {
                 ease: 'linear',
               }}
             >
-              Learn Futures Trading From the Developer Who Built the AI Platform
+              Learn Futures Trading From the Developer Who Built the AI Chart Trader Platform
             </motion.span>
           </motion.h1>
 
@@ -163,7 +163,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: prefersReducedMotion ? 0.3 : 0.8 }}
           >
-            Master futures trading with personalized mentorship from Ivanlee Jackson—software developer, AI architect, and active trader. 8 intensive 1-on-1 sessions + lifetime AI platform access + complete strategy development. Learn the systematic approach that professional traders use.
+            Master futures trading with personalized mentorship from Ivanlee Jackson—software developer, AI architect, and active trader. 8 intensive 1 on 1 sessions + lifetime AI platform access + complete strategy development. Learn the systematic approach that professional traders use.
           </motion.p>
 
           {/* CTAs with stagger */}
@@ -173,7 +173,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: prefersReducedMotion ? 0.3 : 0.8 }}
           >
-            <Button variant="primary" size="lg" onClick={() => window.location.href = '#pricing'}>
+            <Button variant="primary" size="lg" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13cc'}>
               Secure Your Spot ($1,000)
             </Button>
             <Button variant="outline" size="lg" onClick={() => window.location.href = '#demo'}>

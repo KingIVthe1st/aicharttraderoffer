@@ -7,7 +7,7 @@ const features = [
   {
     title: 'Chart Pattern Recognition',
     icon: '🎯',
-    description: `Upload any chart, any timeframe. The AI identifies head-and-shoulders, flags, wedges, and 40+ other patterns—then explains confidence levels, invalidation points, and historical win rates. But here's what matters: it teaches you WHY patterns work, not just THAT they work. Within weeks, you'll spot these patterns faster than the AI does.`,
+    description: `Upload any chart, any timeframe. The AI identifies head and shoulders, flags, wedges, and 40+ other patterns—then explains confidence levels, invalidation points, and historical win rates. But here's what matters: it teaches you WHY patterns work, not just THAT they work. Within weeks, you'll spot these patterns faster than the AI does.`,
   },
   {
     title: 'Mentor Mode',

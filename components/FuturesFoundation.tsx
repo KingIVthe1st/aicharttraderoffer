@@ -32,7 +32,7 @@ const benefits = [
   {
     title: 'Risk-Defined Position Sizing',
     icon: '🧮',
-    description: `Futures contracts offer standardized, transparent margin requirements that let you calculate maximum risk before entering any trade. Unlike options decay or stock position sizing guesswork, you'll know exactly how much capital each ES or NQ contract requires—critical for prop firm evaluation periods where one miscalculated position can blow your account. This program teaches you the precise position sizing formulas prop firms expect, so you're never overleveraged or leaving opportunity on the table. Master the math that separates funded traders from failed evaluations.`,
+    description: `Futures contracts offer standardized margin requirements that let you calculate exact risk before any trade. Know precisely how much capital each ES or NQ contract requires—critical for prop firm evaluations where miscalculated positions can end your account. Learn the position sizing formulas that separate funded traders from failed evaluations.`,
   },
 ];
 
@@ -100,13 +100,13 @@ export default function FuturesFoundation() {
           <div className="text-primary-400 text-3xl">→</div>
           <div className="flex-1">
             <div className="text-3xl mb-2">💼</div>
-            <p className="font-semibold text-white">Trade $50K-$250K</p>
+            <p className="font-semibold text-white">Trade $50K to $250K</p>
             <p className="text-sm text-gray-400">Their capital, not yours</p>
           </div>
           <div className="text-primary-400 text-3xl">→</div>
           <div className="flex-1">
             <div className="text-3xl mb-2">💸</div>
-            <p className="font-semibold text-white">Keep 80-90% of Profits</p>
+            <p className="font-semibold text-white">Keep 80 to 90% of Profits</p>
             <p className="text-sm text-gray-400">Potential funding opportunity</p>
           </div>
         </div>

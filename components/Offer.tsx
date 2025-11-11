@@ -9,14 +9,14 @@ const components = [
     title: '8 Private Strategy Sessions',
     value: '$4,000',
     icon: '🎓',
-    description: `One-on-one Zoom calls, 60-90 minutes each, scheduled around your availability. We'll review your actual trades, analyze your decision-making patterns, and build strategies aligned with your psychology and schedule. No group calls where you compete for attention. No generic feedback that applies to everyone. These sessions are diagnostic: I identify exactly where your trading breaks down (entry timing? position sizing? exit discipline?) and build custom protocols to fix it. By session eight, you'll have a documented trading plan, practiced setups you've validated through simulation, and a framework for independent decision-making. What you do with that foundation determines your results.`,
+    description: `One on one Zoom calls, 60 to 90 minutes each, scheduled around your availability. We'll review your actual trades, analyze your decision making patterns, and build strategies aligned with your psychology and schedule. No group calls where you compete for attention. No generic feedback that applies to everyone. These sessions are diagnostic: I identify exactly where your trading breaks down (entry timing? position sizing? exit discipline?) and build custom protocols to fix it. By session eight, you'll have a documented trading plan, practiced setups you've validated through simulation, and a framework for independent decision making. What you do with that foundation determines your results.`,
     features: ['2x weekly for 1 month', 'Screen-share chart analysis', 'Custom strategy development', 'Q&A on your specific setup'],
   },
   {
     title: 'AI Chart Traders Platform Access',
     value: 'Founding Member: $20/mo',
     icon: '🤖',
-    description: `Lifetime access to the platform for $20/month—a founding member rate locked in permanently. Professional-grade market analysis platforms typically range from $200-$1,000+ monthly. This includes all future platform updates, new pattern libraries, and feature releases. Use it to prepare for sessions, analyze trades between calls, and continue learning after our formal program ends. The AI becomes your permanent trading partner—always available, never judging, constantly helping you improve.`,
+    description: `Lifetime access to the platform for $20/month—a founding member rate locked in permanently. Professional grade market analysis platforms typically range from $200 to $1,000+ monthly. This includes all future platform updates, new pattern libraries, and feature releases. Use it to prepare for sessions, analyze trades between calls, and continue learning after our formal program ends. The AI becomes your permanent trading partner—always available, never judging, constantly helping you improve.`,
     features: ['Unlimited chart analysis', 'Mentor mode explanations', 'Pattern recognition alerts', 'Psychology training modules'],
   },
   {

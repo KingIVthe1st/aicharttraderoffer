@@ -16,19 +16,19 @@ const steps = [
     week: 'Weeks 2-4',
     title: 'Foundations',
     icon: '📚',
-    description: `Sessions 2-4 focus on essential concepts: market structure, support/resistance, volume analysis, and pattern recognition. Between sessions, you'll complete assignments using the AI mentor—practicing pattern identification, analyzing historical charts, and documenting observations. I review every assignment before our next call. You're building pattern recognition muscle memory and starting to think like a professional trader. We'll also begin live chart review: I'll walk through my analysis process in real-time so you see how experienced traders actually evaluate setups.`,
+    description: `Sessions 2 to 4 focus on essential concepts: market structure, support/resistance, volume analysis, and pattern recognition. Between sessions, you'll complete assignments using the AI mentor—practicing pattern identification, analyzing historical charts, and documenting observations. I review every assignment before our next call. You're building pattern recognition muscle memory and starting to think like a professional trader. We'll also begin live chart review: I'll walk through my analysis process in real time so you see how experienced traders actually evaluate setups.`,
   },
   {
     week: 'Weeks 5-7',
     title: 'Strategy Development',
     icon: '⚙️',
-    description: `Now we build YOUR system. Based on your psychology and schedule, we'll develop 2-3 core setups you'll trade repeatedly. You'll paper trade these setups between sessions while I monitor your execution. We analyze every trade together: What did you see? What did you miss? Was the loss acceptable or avoidable? This is where transformation happens—you're no longer learning theory; you're refining personal execution. By week 7, you'll have a documented playbook and consistent paper trading results ready for small-size live testing.`,
+    description: `Now we build YOUR system. Based on your psychology and schedule, we'll develop 2 to 3 core setups you'll trade repeatedly. You'll paper trade these setups between sessions while I monitor your execution. We analyze every trade together: What did you see? What did you miss? Was the loss acceptable or avoidable? This is where transformation happens—you're no longer learning theory; you're refining personal execution. By week 7, you'll have a documented playbook and consistent paper trading results ready for small size live testing.`,
   },
   {
     week: 'Week 8+',
     title: 'Independence & Funding',
     icon: '🎯',
-    description: `Our final session is graduation planning. We'll review your complete trading system, establish post-program goals, and plan your prop firm evaluation strategy. You'll continue with $20/month platform access and can schedule à la carte follow-up sessions if needed (discounted for program graduates). Many students choose to pursue prop firm evaluations within 3-6 months after completing the program, though timelines vary based on individual progress, practice consistency, and market conditions. My job isn't to make you dependent on mentorship—it's to make you capable of independent decision-making.`,
+    description: `Our final session is graduation planning. We'll review your complete trading system, establish post program goals, and plan your prop firm evaluation strategy. You'll continue with $20/month platform access and can schedule à la carte follow up sessions if needed (discounted for program graduates). Many students choose to pursue prop firm evaluations within 3 to 6 months after completing the program, though timelines vary based on individual progress, practice consistency, and market conditions. My job isn't to make you dependent on mentorship—it's to make you capable of independent decision making.`,
   },
 ];
 

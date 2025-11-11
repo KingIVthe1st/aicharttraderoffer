@@ -7,11 +7,11 @@ import { useState } from 'react';
 const faqs = [
   {
     question: "I'm a complete beginner—is this too advanced?",
-    answer: `No. I prefer working with beginners because you haven't developed bad habits yet. This program assumes zero trading knowledge. We start with absolute fundamentals: what futures contracts are, how margin works, why markets move. The AI platform adjusts to your experience level automatically. That said, you DO need prerequisite mindset: commitment to learning, comfort with technology, and realistic expectations (this is education, not get-rich-quick). If you bring the mindset, I'll provide the method.`,
+    answer: `No. I prefer working with beginners because you haven't developed bad habits yet. This program assumes zero trading knowledge. We start with absolute fundamentals: what futures contracts are, how margin works, why markets move. The AI platform adjusts to your experience level automatically. That said, you DO need prerequisite mindset: commitment to learning, comfort with technology, and realistic expectations (this is education, not get rich quick). If you bring the mindset, I'll provide the method.`,
   },
   {
     question: 'How is this different from other trading courses?',
-    answer: `Three key differences: (1) Individual mentorship, not group calls or pre-recorded videos. (2) AI-powered practice tool that provides instant feedback 24/7. (3) Taught by the developer who built the platform, not a marketer who licensed it. Most courses teach strategy without teaching you how to adapt it to your unique psychology and schedule. We build YOUR system, not my system. Also, I'm transparent about my background—I'm a developer who trades, not a trading guru who quit trading to sell courses.`,
+    answer: `Three key differences: (1) Individual mentorship, not group calls or pre recorded videos. (2) AI powered practice tool that provides instant feedback 24/7. (3) Taught by the developer who built the platform, not a marketer who licensed it. Most courses teach strategy without teaching you how to adapt it to your unique psychology and schedule. We build YOUR system, not my system. Also, I'm transparent about my background—I'm a developer who trades, not a trading guru who quit trading to sell courses.`,
   },
   {
     question: "What if I don't get funded by a prop firm?",
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: "What if I can't attend all sessions?",
-    answer: `Life happens—I get it. Sessions are scheduled flexibly around your availability, and we can reschedule if emergencies arise. The program doesn't expire; it completes when you finish all 8 sessions, whether that takes 8 weeks or 12 weeks. That said, consistency matters for learning. If you can't commit to roughly one session every 7-10 days, you should wait until your schedule allows it. Sporadic engagement produces sporadic results.`,
+    answer: `Life happens—I get it. Sessions are scheduled flexibly around your availability, and we can reschedule if emergencies arise. The program doesn't expire; it completes when you finish all 8 sessions, whether that takes 8 weeks or 12 weeks. That said, consistency matters for learning. If you can't commit to roughly one session every 7 to 10 days, you should wait until your schedule allows it. Sporadic engagement produces sporadic results.`,
   },
 ];
 

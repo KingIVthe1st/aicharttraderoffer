@@ -87,7 +87,7 @@ export default function Pricing() {
               >
                 $1,000
               </motion.div>
-              <p className="text-gray-400">one-time payment</p>
+              <p className="text-gray-400">one time payment</p>
               <div className="mt-2">
                 <span className="text-xl sm:text-2xl font-semibold text-accent-400">+ $20/mo</span>
                 <span className="text-gray-400 text-sm ml-2">(platform access)</span>
@@ -96,7 +96,7 @@ export default function Pricing() {
 
             <ul className="space-y-3 mb-8">
               {[
-                '8 private 1-on-1 sessions',
+                '8 private 1 on 1 sessions',
                 'Lifetime platform access',
                 'Complete prop firm setup',
                 'Custom trading blueprint',
@@ -111,12 +111,12 @@ export default function Pricing() {
               ))}
             </ul>
 
-            <Button variant="primary" size="lg" className="w-full" onClick={() => alert('Payment integration coming soon!')}>
+            <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13cc'}>
               Enroll Now - $1,000
             </Button>
 
             <p className="text-center text-sm text-gray-400 mt-4">
-              Money-back guarantee after 2 sessions
+              Money back guarantee after 2 sessions
             </p>
           </div>
         </motion.div>
@@ -202,7 +202,7 @@ export default function Pricing() {
               🛡️
             </motion.div>
             <div className="text-center sm:text-left">
-              <p className="text-lg sm:text-xl font-bold text-primary-300 mb-1">Money-Back Guarantee</p>
+              <p className="text-lg sm:text-xl font-bold text-primary-300 mb-1">Money Back Guarantee</p>
               <p className="text-sm sm:text-base text-gray-300">
                 If after two sessions you don&apos;t believe this program will transform your trading,
                 <br className="hidden lg:block" />

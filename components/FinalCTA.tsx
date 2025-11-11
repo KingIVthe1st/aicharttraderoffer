@@ -31,7 +31,7 @@ export default function FinalCTA() {
             You're at a decision point that separates casual interest from real commitment. Most people will read this entire page, nod along, and do nothing—then wonder in six months why they're still stuck.
           </p>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            The traders who develop genuine skill aren't necessarily smarter or more talented—they're decisive, committed, and willing to invest in structured learning rather than expensive trial-and-error. They recognize quality education when they see it and act before spots fill. This program won't be available forever at this price—as the platform scales, pricing will reflect market value.
+            The traders who develop genuine skill aren't necessarily smarter or more talented—they're decisive, committed, and willing to invest in structured learning rather than expensive trial and error. They recognize quality education when they see it and act before spots fill. This program won't be available forever at this price—as the platform scales, pricing will reflect market value.
           </p>
 
           {/* Dual CTA */}
@@ -47,7 +47,7 @@ export default function FinalCTA() {
               <p className="text-gray-300 mb-6">
                 Join the program today and begin your development journey toward trading competence.
               </p>
-              <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = '#pricing'}>
+              <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13cc'}>
                 Enroll for $1,000
               </Button>
               <div className="mt-4 space-y-2 text-sm text-gray-400">
@@ -57,7 +57,7 @@ export default function FinalCTA() {
                 </div>
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-primary-400">✓</span>
-                  <span>Money-back guarantee</span>
+                  <span>Money back guarantee</span>
                 </div>
               </div>
             </motion.div>
