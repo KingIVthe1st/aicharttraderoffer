@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  basePath: '/aicharttraderoffer',
-  assetPrefix: '/aicharttraderoffer/',
+  // basePath removed for custom domain (offer.aicharttraders.com)
+  // assetPrefix removed for custom domain
 };
 
 export default nextConfig;

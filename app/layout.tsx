@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const basePath = process.env.NODE_ENV === 'production' ? '/aicharttraderoffer' : '';
 const siteUrl = process.env.NODE_ENV === 'production'
-  ? 'https://kingivthe1st.github.io/aicharttraderoffer'
+  ? 'https://offer.aicharttraders.com'
   : 'http://localhost:3000';
 
 export const metadata: Metadata = {
@@ -18,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "AI Chart Traders Elite",
     images: [
       {
-        url: `${siteUrl}${basePath}/sharecard.jpg`,
+        url: `${siteUrl}/sharecard.jpg`,
         width: 1200,
         height: 630,
         alt: "AI Chart Traders Elite Program - Master Futures Trading",
@@ -29,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AI Chart Traders Elite Program",
     description: "Learn futures trading from the AI developer who built your 24/7 mentor",
-    images: [`${siteUrl}${basePath}/sharecard.jpg`],
+    images: [`${siteUrl}/sharecard.jpg`],
     creator: "@KingIVthe1st",
   },
   metadataBase: new URL(siteUrl),
