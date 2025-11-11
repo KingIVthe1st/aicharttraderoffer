@@ -173,7 +173,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: prefersReducedMotion ? 0.3 : 0.8 }}
           >
-            <Button variant="primary" size="lg" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13cc'}>
+            <Button variant="primary" size="lg" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13Nc4c800'}>
               Secure Your Spot ($1,000)
             </Button>
             <Button variant="outline" size="lg" onClick={() => window.location.href = '#demo'}>

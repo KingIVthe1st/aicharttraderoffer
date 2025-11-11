@@ -111,7 +111,7 @@ export default function Pricing() {
               ))}
             </ul>
 
-            <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13cc'}>
+            <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13Nc4c800'}>
               Enroll Now - $1,000
             </Button>
 

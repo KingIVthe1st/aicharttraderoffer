@@ -47,7 +47,7 @@ export default function FinalCTA() {
               <p className="text-gray-300 mb-6">
                 Join the program today and begin your development journey toward trading competence.
               </p>
-              <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13cc'}>
+              <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/3cI8wP44BfahdZ13Nc4c800'}>
                 Enroll for $1,000
               </Button>
               <div className="mt-4 space-y-2 text-sm text-gray-400">
