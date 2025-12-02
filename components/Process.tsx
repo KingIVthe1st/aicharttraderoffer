@@ -28,7 +28,7 @@ const steps = [
     week: 'Week 8+',
     title: 'Independence & Funding',
     icon: '🎯',
-    description: `Our final session is graduation planning. We'll review your complete trading system, establish post program goals, and plan your prop firm evaluation strategy. You'll continue with $20/month platform access and can schedule à la carte follow up sessions if needed (discounted for program graduates). Many students choose to pursue prop firm evaluations within 3 to 6 months after completing the program, though timelines vary based on individual progress, practice consistency, and market conditions. My job isn't to make you dependent on mentorship—it's to make you capable of independent decision making.`,
+    description: `Our final session is graduation planning. We'll review your complete trading system, establish post program goals, and plan your prop firm evaluation strategy. You'll continue with $24/month platform access and can schedule à la carte follow up sessions if needed (discounted for program graduates). Many students choose to pursue prop firm evaluations within 3 to 6 months after completing the program, though timelines vary based on individual progress, practice consistency, and market conditions. My job isn't to make you dependent on mentorship—it's to make you capable of independent decision making.`,
   },
 ];
 

@@ -23,15 +23,15 @@ const faqs = [
   },
   {
     question: 'What happens after the 8 sessions?',
-    answer: `You keep lifetime platform access ($20/month) and can continue independent trading. Most students don't need additional mentorship after completing the program—that's the goal. However, if you want periodic check-ins or advanced strategy development, I offer discounted à la carte sessions for graduates ($200/session vs. standard $600). You're also welcome to join the private graduate community where alumni share setups, prop firm updates, and continued learning. Think of this as building a skill that lasts forever, not a dependency relationship.`,
+    answer: `You keep lifetime platform access ($24/month) and can continue independent trading. Most students don't need additional mentorship after completing the program—that's the goal. However, if you want periodic check-ins or advanced strategy development, I offer discounted à la carte sessions for graduates ($200/session vs. standard $600). You're also welcome to join the private graduate community where alumni share setups, prop firm updates, and continued learning. Think of this as building a skill that lasts forever, not a dependency relationship.`,
   },
   {
     question: 'Can I use this with any broker?',
     answer: `Yes. The strategies and platform work with any broker offering futures trading (TD Ameritrade, Interactive Brokers, TradeStation, NinjaTrader, etc.). I'll help you evaluate broker options based on your needs: data fees, commission structure, platform features. I don't have affiliate relationships with brokers, so recommendations are genuinely unbiased. Most students use NinjaTrader or Tradovate for live trading and the AI platform for analysis and learning.`,
   },
   {
-    question: 'Is the $20/month required?',
-    answer: `Yes, but it's worth understanding why. The AI platform requires ongoing server costs, data feeds, and continuous model training. $20/month barely covers infrastructure costs. I'm subsidizing this significantly for program students. If you complete the 8 sessions and decide the platform isn't valuable, you can cancel anytime. No long-term commitment. However, 98% of graduates maintain their subscription because having 24/7 AI mentorship is like having a senior trader on speed dial.`,
+    question: 'Is the $24/month required?',
+    answer: `Yes, but it's worth understanding why. The AI platform requires ongoing server costs, data feeds, and continuous model training. $24/month barely covers infrastructure costs. I'm subsidizing this significantly for program students. If you complete the 8 sessions and decide the platform isn't valuable, you can cancel anytime. No long-term commitment. However, 98% of graduates maintain their subscription because having 24/7 AI mentorship is like having a senior trader on speed dial.`,
   },
   {
     question: "What if I can't attend all sessions?",

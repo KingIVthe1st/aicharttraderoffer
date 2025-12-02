@@ -22,7 +22,7 @@ const features = [
   {
     title: '24/7 Availability',
     icon: '⏰',
-    description: `Markets don't sleep, and neither does your mentor. Asia session at 3 AM? Sunday evening prep? The AI is analyzing markets, answering questions, and helping you prepare. Meanwhile, human mentors are unavailable evenings, weekends, and holidays—exactly when you need guidance most. Standalone, this platform would cost $997/month. As part of this program, you get it for $20/month for life.`,
+    description: `Markets don't sleep, and neither does your mentor. Asia session at 3 AM? Sunday evening prep? The AI is analyzing markets, answering questions, and helping you prepare. Meanwhile, human mentors are unavailable evenings, weekends, and holidays—exactly when you need guidance most. Standalone, this platform would cost $997/month. As part of this program, you get it for $24/month for life.`,
   },
 ];
 

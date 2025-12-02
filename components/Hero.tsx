@@ -191,7 +191,7 @@ export default function Hero() {
             {[
               'Money-Back Guarantee',
               '8 Private Sessions',
-              '$20/month Platform (Founding Member Rate)'
+              '$24/month Platform (Founding Member Rate)'
             ].map((item, index) => (
               <motion.div
                 key={item}
