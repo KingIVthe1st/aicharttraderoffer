@@ -14,9 +14,9 @@ const components = [
   },
   {
     title: 'AI Chart Traders Platform Access',
-    value: 'Founding Member: $24/mo',
+    value: 'Mentorship Rate: $20/mo (normally $97/mo)',
     icon: '🤖',
-    description: `Lifetime access to the platform for $24/month, a founding member rate locked in permanently. Professional grade market analysis platforms typically range from $200 to $1,000+ monthly. This includes all future platform updates, new pattern libraries, and feature releases. Use it to prepare for sessions, analyze trades between calls, and continue learning after our formal program ends. The AI becomes your permanent trading partner, always available, never judging, constantly helping you improve.`,
+    description: `Lifetime access to the platform for just $20/month—a mentorship-exclusive rate locked in permanently (normally $97/mo). That's a savings of $77/month ($924+/year) for as long as you use the platform. Professional grade market analysis platforms typically range from $200 to $1,000+ monthly. This includes all future platform updates, new pattern libraries, and feature releases. Use it to prepare for sessions, analyze trades between calls, and continue learning after our formal program ends. The AI becomes your permanent trading partner, always available, never judging, constantly helping you improve.`,
     features: ['Unlimited chart analysis', 'Mentor mode explanations', 'Pattern recognition alerts', 'Psychology training modules'],
   },
   {
@@ -182,7 +182,7 @@ export default function Offer() {
         <div>
           <p className="text-gray-400 text-lg mb-2">Your Investment:</p>
           <p className="text-5xl font-bold text-primary-400 mb-2">$997</p>
-          <p className="text-xl text-gray-300">+ $24/month platform access</p>
+          <p className="text-xl text-gray-300">+ $20/mo platform access <span className="text-accent-400">(normally $97/mo)</span></p>
         </div>
         <motion.div
           initial={{ scale: 0 }}

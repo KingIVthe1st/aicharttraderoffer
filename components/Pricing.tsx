@@ -19,10 +19,10 @@ export default function Pricing() {
         className="text-center mb-16"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-accent-400">
-          Investment Details
+          Choose Your Trading Edge
         </h2>
         <p className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed px-4">
-          Quality education costs less than expensive mistakes. Many traders report losing $3,000-$5,000 or more learning through trial and error before either quitting or seeking structured education. Quality mentorship can compress the learning curve and potentially reduce costly mistakes.
+          Lock in the <span className="text-primary-400 font-semibold">$20/mo AI rate</span> with mentorship and save <span className="text-accent-400 font-semibold">$924+/year</span> on platform fees—or go AI-only if you&apos;re already a seasoned trader.
         </p>
       </motion.div>
 
@@ -68,10 +68,10 @@ export default function Pricing() {
                     ease: 'easeInOut',
                   }}
                 />
-                <span className="relative z-10">BEST VALUE</span>
+                <span className="relative z-10">BEST VALUE — Save $924+/yr</span>
               </motion.div>
-              <h3 className="text-3xl font-bold text-white mb-2">All-In Today</h3>
-              <p className="text-gray-400">Start within 24 hours</p>
+              <h3 className="text-3xl font-bold text-white mb-2">Complete Mentorship + AI</h3>
+              <p className="text-gray-400">8 private sessions + AI platform at $20/mo (normally $97/mo)</p>
             </div>
 
             <motion.div
@@ -87,22 +87,22 @@ export default function Pricing() {
               >
                 $997
               </motion.div>
-              <p className="text-gray-400">one time payment</p>
+              <p className="text-gray-400">one-time mentorship fee</p>
               <div className="mt-2">
                 <span className="text-xl sm:text-2xl font-semibold text-accent-400">+ $20/mo</span>
-                <span className="text-gray-400 text-sm ml-2">(platform access)</span>
+                <span className="text-gray-400 text-sm ml-2">(locked forever — normally $97/mo)</span>
               </div>
             </motion.div>
 
             <ul className="space-y-3 mb-8">
               {[
-                '8 private 1 on 1 sessions',
-                'Lifetime platform access',
-                'Complete prop firm setup',
+                '8 private 1-on-1 sessions',
+                'Complete prop firm setup guidance',
                 'Custom trading blueprint',
                 'Priority session scheduling',
-                'Immediate access to pattern library',
-                '$20/mo rate locked forever',
+                'Immediate pattern library access',
+                'AI platform at $20/mo locked forever',
+                'Save $77/mo ($924+/year) on platform fees',
               ].map((feature) => (
                 <li key={feature} className="flex items-center gap-3">
                   <span className="text-primary-400 text-xl">✓</span>
@@ -112,11 +112,11 @@ export default function Pricing() {
             </ul>
 
             <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/00w8wP30x3rz6wzbfE4c801'}>
-              Enroll Now - $997
+              Secure My Mentorship & Locked Rate
             </Button>
 
             <p className="text-center text-sm text-gray-400 mt-4">
-              Money back guarantee after 2 sessions
+              100% money-back guarantee after 2 sessions
             </p>
           </div>
         </motion.div>
@@ -134,23 +134,22 @@ export default function Pricing() {
           }}
         >
             <div className="text-center mb-6">
-              <h3 className="text-3xl font-bold text-white mb-2">Free Demo Call</h3>
-              <p className="text-gray-400">See it before you commit</p>
+              <h3 className="text-3xl font-bold text-white mb-2">AI Platform Only</h3>
+              <p className="text-gray-400">For experienced traders who just want the tool</p>
             </div>
 
             <div className="text-center mb-8">
-              <div className="text-5xl font-bold text-accent-400 mb-2">$0</div>
-              <p className="text-gray-400">20-minute session</p>
+              <div className="text-5xl font-bold text-accent-400 mb-2">$97<span className="text-2xl text-gray-400">/mo</span></div>
+              <p className="text-gray-400">standard platform rate</p>
             </div>
 
             <ul className="space-y-3 mb-8">
               {[
-                'Platform walkthrough',
-                'Live AI analysis demo',
-                'Strategy assessment',
-                'Q&A with Ivanlee',
-                'Personalized recommendations',
-                'No sales pressure',
+                'Unlimited AI chart analysis',
+                'Pattern recognition alerts',
+                'Real-time trading signals',
+                'All platform features included',
+                'Cancel anytime',
               ].map((feature) => (
                 <li key={feature} className="flex items-center gap-3">
                   <span className="text-accent-400 text-xl">✓</span>
@@ -160,13 +159,13 @@ export default function Pricing() {
             </ul>
 
             <div id="demo">
-              <Button variant="secondary" size="lg" className="w-full" onClick={() => alert('Calendar booking integration coming soon!')}>
-                Book Free Demo
+              <Button variant="secondary" size="lg" className="w-full" onClick={() => window.location.href = 'https://aicharttraders.com/'}>
+                Start AI Platform Only
               </Button>
             </div>
 
             <p className="text-center text-sm text-gray-400 mt-4">
-              No credit card required
+              No mentorship included — skip the discount
             </p>
         </motion.div>
       </div>
@@ -233,7 +232,7 @@ export default function Pricing() {
           }}
         >
           <p className="text-red-400 font-semibold text-base sm:text-lg">
-            ⚠️ Only 2 spots remaining this month • Next cohort opens in 30 days
+            ⚠️ Limited mentorship spots • $20/mo locked rate is first-come, first-served
           </p>
         </motion.div>
       </motion.div>

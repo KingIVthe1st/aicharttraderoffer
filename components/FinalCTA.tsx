@@ -43,21 +43,21 @@ export default function FinalCTA() {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="bg-gray-800/50 backdrop-blur-sm border-2 border-primary-500 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-primary-300 mb-4">Ready to Start?</h3>
+              <h3 className="text-2xl font-bold text-primary-300 mb-4">Complete Mentorship + AI</h3>
               <p className="text-gray-300 mb-6">
-                Join the program today and begin your development journey toward trading competence.
+                Get 8 private sessions + lock in the $20/mo AI rate forever (save $924+/year on platform fees).
               </p>
               <Button variant="primary" size="lg" className="w-full" onClick={() => window.location.href = 'https://buy.stripe.com/00w8wP30x3rz6wzbfE4c801'}>
-                Enroll for $997
+                Get Mentorship + $20/mo Rate
               </Button>
               <div className="mt-4 space-y-2 text-sm text-gray-400">
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-primary-400">✓</span>
-                  <span>Start within 24 hours</span>
+                  <span>$997 one-time + $20/mo (normally $97/mo)</span>
                 </div>
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-primary-400">✓</span>
-                  <span>Money back guarantee</span>
+                  <span>Money-back guarantee</span>
                 </div>
               </div>
             </motion.div>
@@ -69,21 +69,21 @@ export default function FinalCTA() {
               transition={{ delay: 0.5, duration: 0.6 }}
               className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-accent-400 mb-4">Want to See It First?</h3>
+              <h3 className="text-2xl font-bold text-accent-400 mb-4">AI Platform Only</h3>
               <p className="text-gray-300 mb-6">
-                Book a free 20-minute demo to see the platform and ask questions.
+                Skip the mentorship and get direct access to the AI trading platform at the standard rate.
               </p>
-              <Button variant="secondary" size="lg" className="w-full" onClick={() => window.location.href = '#demo'}>
-                Book Free Demo
+              <Button variant="secondary" size="lg" className="w-full" onClick={() => window.location.href = 'https://aicharttraders.com/'}>
+                Start AI Only ($97/mo)
               </Button>
               <div className="mt-4 space-y-2 text-sm text-gray-400">
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-accent-400">✓</span>
-                  <span>No credit card required</span>
+                  <span>Full AI platform access</span>
                 </div>
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-accent-400">✓</span>
-                  <span>No sales pressure</span>
+                  <span>For experienced traders</span>
                 </div>
               </div>
             </motion.div>
@@ -99,10 +99,10 @@ export default function FinalCTA() {
           >
             <div className="px-8 py-4 bg-red-500/20 border-2 border-red-500 rounded-xl backdrop-blur-sm">
               <p className="text-red-400 font-bold text-xl">
-                ⚠️ Only 2 spots left this month
+                ⚠️ Limited mentorship spots available
               </p>
               <p className="text-gray-300 text-sm mt-2">
-                Next cohort opens December 1st (waitlist only)
+                $20/mo locked rate is first-come, first-served
               </p>
             </div>
           </motion.div>

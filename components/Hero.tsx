@@ -174,10 +174,10 @@ export default function Hero() {
             transition={{ delay: 0.7, duration: prefersReducedMotion ? 0.3 : 0.8 }}
           >
             <Button variant="primary" size="lg" onClick={() => window.location.href = 'https://buy.stripe.com/00w8wP30x3rz6wzbfE4c801'}>
-              Secure Your Spot ($997)
+              Get Mentorship + $20/mo AI Rate
             </Button>
-            <Button variant="outline" size="lg" onClick={() => window.location.href = '#demo'}>
-              Book Free Demo Call
+            <Button variant="outline" size="lg" onClick={() => window.location.href = 'https://aicharttraders.com/'}>
+              AI Platform Only ($97/mo)
             </Button>
           </motion.div>
 
@@ -190,8 +190,8 @@ export default function Hero() {
           >
             {[
               'Money-Back Guarantee',
-              '8 Private Sessions',
-              '$24/month Platform (Founding Member Rate)'
+              '8 Private 1-on-1 Sessions',
+              '$20/mo AI Rate (Save $924+/yr)'
             ].map((item, index) => (
               <motion.div
                 key={item}
