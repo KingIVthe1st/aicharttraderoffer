@@ -101,9 +101,6 @@ export default function FinalCTA() {
               <p className="text-red-400 font-bold text-xl">
                 ⚠️ Limited mentorship spots available
               </p>
-              <p className="text-gray-300 text-sm mt-2">
-                $20/mo locked rate is first-come, first-served
-              </p>
             </div>
           </motion.div>
         </motion.div>

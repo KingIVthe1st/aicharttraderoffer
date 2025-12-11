@@ -232,7 +232,7 @@ export default function Pricing() {
           }}
         >
           <p className="text-red-400 font-semibold text-base sm:text-lg">
-            ⚠️ Limited mentorship spots • $20/mo locked rate is first-come, first-served
+            ⚠️ Limited mentorship spots
           </p>
         </motion.div>
       </motion.div>
