@@ -17,7 +17,7 @@ export default function Mentor() {
         >
           <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary-900/30 to-accent-900/30 border-2 border-primary-500/30 overflow-hidden relative group">
             <img
-              src="/ivan.jpg"
+              src="/ivanmeetthedeveloper.jpeg"
               alt="Ivanlee Jackson - AI Developer & Trading Educator"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
