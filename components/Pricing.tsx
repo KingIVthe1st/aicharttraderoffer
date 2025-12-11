@@ -100,7 +100,6 @@ export default function Pricing() {
                 'Complete prop firm setup guidance',
                 'Custom trading blueprint',
                 'Priority session scheduling',
-                'Immediate pattern library access',
                 'AI platform at $20/mo locked forever',
                 'Save $77/mo ($924+/year) on platform fees',
               ].map((feature) => (
