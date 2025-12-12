@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { motion, useScroll, useTransform, AnimatePresence, useSpring } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Button from './Button';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
@@ -12,8 +12,9 @@ export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const prefersReducedMotion = useReducedMotion();
 
-  const { scrollY } = useScroll();
+  const { scrollY, scrollYProgress } = useScroll();
   const navOpacity = useTransform(scrollY, [0, 100], [1, 0.98]);
+  const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30, restDelta: 0.001 });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -160,6 +161,12 @@ export default function Navigation() {
             </div>
           </div>
         </div>
+
+        {/* Scroll Progress Indicator */}
+        <motion.div
+          className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-primary-500 via-accent-400 to-primary-500 origin-left"
+          style={{ scaleX }}
+        />
       </motion.nav>
 
       {/* Mobile menu overlay */}
