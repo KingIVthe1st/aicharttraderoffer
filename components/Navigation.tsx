@@ -10,11 +10,23 @@ export default function Navigation() {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [hasScrolledOnce, setHasScrolledOnce] = useState(false);
   const prefersReducedMotion = useReducedMotion();
 
   const { scrollY, scrollYProgress } = useScroll();
   const navOpacity = useTransform(scrollY, [0, 100], [1, 0.98]);
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 30, restDelta: 0.001 });
+
+  // Detect mobile viewport
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +34,11 @@ export default function Navigation() {
 
       // Update scrolled state for background
       setIsScrolled(currentScrollY > 50);
+
+      // Track if user has scrolled at least once (for mobile fade-in)
+      if (currentScrollY > 20 && !hasScrolledOnce) {
+        setHasScrolledOnce(true);
+      }
 
       // Hide/show navigation based on scroll direction
       if (currentScrollY > lastScrollY && currentScrollY > 200) {
@@ -37,7 +54,10 @@ export default function Navigation() {
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastScrollY]);
+  }, [lastScrollY, hasScrolledOnce]);
+
+  // On mobile, only show nav after user has scrolled
+  const shouldShowNav = isMobile ? (hasScrolledOnce && isVisible) : isVisible;
 
   const menuItems = [
     { label: 'Why Futures', href: '#futures' },
@@ -50,15 +70,17 @@ export default function Navigation() {
   return (
     <>
       <motion.nav
-        initial={{ y: -100 }}
-        animate={{ y: isVisible ? 0 : -100 }}
+        initial={{ y: -100, opacity: 0 }}
+        animate={{
+          y: shouldShowNav ? 0 : -100,
+          opacity: shouldShowNav ? 1 : 0
+        }}
         transition={{
           type: prefersReducedMotion ? 'tween' : 'spring',
           stiffness: 300,
           damping: 30,
           duration: prefersReducedMotion ? 0.2 : undefined,
         }}
-        style={{ opacity: navOpacity }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
             ? 'bg-black/95 backdrop-blur-xl border-b border-gray-800/50 shadow-2xl shadow-black/50'
