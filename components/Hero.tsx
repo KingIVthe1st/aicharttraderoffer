@@ -38,8 +38,17 @@ export default function Hero() {
 
   return (
     <div ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Hero background image */}
+      <div className="absolute inset-0">
+        <img
+          src="/images/hero-trading-desk.png"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
+      </div>
       {/* Animated gradient mesh background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-primary-900/20">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 via-black/60 to-primary-900/20">
         {/* Floating orbs with parallax */}
         <motion.div
           className="absolute inset-0 opacity-40"

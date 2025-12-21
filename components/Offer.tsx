@@ -164,35 +164,50 @@ export default function Offer() {
         ))}
       </div>
 
-      {/* Value Summary */}
+      {/* Value Summary with Product Stack Image */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.6, duration: 0.6 }}
-        className="mt-12 bg-gradient-to-r from-primary-900/30 to-accent-900/30 border-2 border-primary-500/50 rounded-2xl p-8 text-center"
+        className="mt-12 bg-gradient-to-r from-primary-900/30 to-accent-900/30 border-2 border-primary-500/50 rounded-2xl overflow-hidden"
       >
-        <div className="mb-4">
-          <p className="text-gray-400 text-lg mb-2">Total Program Value:</p>
-          <p className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-accent-400 line-through opacity-60">
-            $13,376+
-          </p>
+        <div className="grid md:grid-cols-2 gap-0">
+          {/* Value Stack Image */}
+          <div className="relative h-64 md:h-auto">
+            <img
+              src="/images/offer-value-stack.png"
+              alt="Complete Mentorship Package"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-primary-900/80 md:block hidden" />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 to-transparent md:hidden" />
+          </div>
+          {/* Pricing Info */}
+          <div className="p-8 flex flex-col justify-center text-center">
+            <div className="mb-4">
+              <p className="text-gray-400 text-lg mb-2">Total Program Value:</p>
+              <p className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-accent-400 line-through opacity-60">
+                $13,376+
+              </p>
+            </div>
+            <div className="text-5xl font-bold mb-2 text-white">↓</div>
+            <div>
+              <p className="text-gray-400 text-lg mb-2">Your Investment:</p>
+              <p className="text-4xl md:text-5xl font-bold text-primary-400 mb-2">$997</p>
+              <p className="text-lg md:text-xl text-gray-300">+ $20/mo platform access <span className="text-accent-400">(normally $97/mo)</span></p>
+            </div>
+            <motion.div
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.8, type: 'spring' }}
+              className="mt-6 inline-block px-6 py-3 bg-accent-500 text-black font-bold rounded-lg text-xl mx-auto"
+            >
+              85% SAVINGS
+            </motion.div>
+          </div>
         </div>
-        <div className="text-6xl font-bold mb-2 text-white">↓</div>
-        <div>
-          <p className="text-gray-400 text-lg mb-2">Your Investment:</p>
-          <p className="text-5xl font-bold text-primary-400 mb-2">$997</p>
-          <p className="text-xl text-gray-300">+ $20/mo platform access <span className="text-accent-400">(normally $97/mo)</span></p>
-        </div>
-        <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.8, type: 'spring' }}
-          className="mt-6 inline-block px-6 py-3 bg-accent-500 text-black font-bold rounded-lg text-xl"
-        >
-          85% SAVINGS
-        </motion.div>
       </motion.div>
     </Section>
   );

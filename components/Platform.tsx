@@ -29,6 +29,34 @@ const features = [
 export default function Platform() {
   return (
     <Section id="platform" dark>
+      {/* AI Intelligence Hero Visual */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="relative mb-16 rounded-2xl overflow-hidden"
+      >
+        <img
+          src="/images/ai-intelligence.png"
+          alt="AI Trading Intelligence Visualization"
+          className="w-full h-64 md:h-80 object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center px-4">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 via-purple-400 to-accent-400 drop-shadow-lg">
+              Your AI Trading Partner
+            </h2>
+            <div className="inline-block px-6 py-3 bg-black/60 backdrop-blur-sm border border-accent-500/30 rounded-lg">
+              <p className="text-accent-400 font-semibold">
+                This is the tool I built because I wanted it for myself. Now it's yours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -36,17 +64,9 @@ export default function Platform() {
         transition={{ duration: 0.6 }}
         className="text-center mb-16"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary-400 via-purple-400 to-accent-400">
-          Your AI Trading Partner
-        </h2>
-        <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8">
+        <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
           AI Chart Traders isn't another backtested indicator suite. It's a conversational AI mentor trained on institutional trading patterns, market psychology, and risk management principles. Ask it questions about your setup. Have it analyze your chart. Request explanation of why a pattern works or doesn't. It's like having a senior trader available 24/7 to review your analysis—except it never gets tired, never judges your questions, and learns from millions of pattern iterations.
         </p>
-        <div className="inline-block px-6 py-3 bg-accent-500/10 border border-accent-500/30 rounded-lg">
-          <p className="text-accent-400 font-semibold">
-            This is the tool I built because I wanted it for myself. Now it's yours.
-          </p>
-        </div>
       </motion.div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
